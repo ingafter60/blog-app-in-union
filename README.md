@@ -135,9 +135,11 @@ https://github.com/ingafter60/blog-app-in-union
         new file:   templates/tutorial.html
         new file:   templates/videogame.html
 
+### 12. Loading posts - Load all posts based on category and load post by individual category
 
-
-
+        modified:   README.md
+        modified:   apps/blog/views.py
+        modified:   templates/index.html
 
 
 
