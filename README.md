@@ -98,10 +98,24 @@ https://github.com/ingafter60/blog-app-in-union
         modified:   apps/blog/models.py
         modified:   core/settings.py
 
+### 10. Static files and template - Add static files and index template
 
-
-
-
+        modified:   README.md
+        new file:   apps/blog/urls.py
+        modified:   apps/blog/views.py
+        modified:   core/settings.py
+        modified:   core/urls.py
+        new file:   static/css/clean-blog.css
+        new file:   static/css/clean-blog.min.css
+        new file:   static/img/about-bg.jpg
+        ...
+        new file:   static/vendor/jquery/jquery.slim.js
+        new file:   static/vendor/jquery/jquery.slim.min.js
+        new file:   static/vendor/jquery/jquery.slim.min.map
+        new file:   templates/about.html
+        new file:   templates/contact.html
+        new file:   templates/index.html
+        new file:   templates/post.html
 
 
 
