@@ -86,7 +86,17 @@ https://github.com/ingafter60/blog-app-in-union
         new file:   apps/blog/migrations/0002_post.py
         modified:   apps/blog/models.py
 
+### 9. Django CKEditor - Install and configuration
 
+        >> pip install django-ckeditor
+        >> impor to blog model
+        >> use it in Post model
+        >> register it to settings for full options of the CKEditor
+        >> run migrations
+        modified:   README.md
+        new file:   apps/blog/migrations/0003_auto_20201225_1232.py
+        modified:   apps/blog/models.py
+        modified:   core/settings.py
 
 
 
