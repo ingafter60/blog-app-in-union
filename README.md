@@ -73,9 +73,11 @@ https://github.com/ingafter60/blog-app-in-union
         modified:   README.md
         modified:   apps/blog/admin.py
 
+### 7. django-import-export : Install and configure django-import-export for Categoria and Autor models
 
-
-
+        modified:   README.md
+        modified:   apps/blog/admin.py
+        modified:   core/settings.py
 
 
 
