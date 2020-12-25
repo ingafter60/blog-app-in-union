@@ -33,3 +33,24 @@ class Autor(models.Model):
 
     def __str__(self):
         return '{0},{1}'.format(self.apellidos,self.nombres)
+
+
+class Post(models.Model):
+    id = models.AutoField(primary_key = True)
+    titulo = models.CharField('Título del Post', max_length = 150, blank = False)
+    slug = models.CharField('Slug', max_length = 150, blank = False, null = False)
+    descripcion = models.TextField('Descripción', max_length = 150, blank = False, null = False)
+    contenido = models.TextField('Contenido')
+    imagen = models.URLField(max_length = 150, blank = False, null = False)
+    autor = models.ForeignKey(Autor, on_delete = models.CASCADE)
+    categoria = models.ForeignKey(Categoria, on_delete = models.CASCADE)
+    estado = models.BooleanField('Publicado/No Publicado', default = True)    
+    publicado = models.BooleanField('Publicado / No Publicado',default = False)
+    fecha_creacion = models.DateField('Fecha de Creación',auto_now = False, auto_now_add = True)
+
+    class Meta:
+        verbose_name = 'Post'
+        verbose_name_plural = 'Posts'
+
+    def __str__(self):
+        return self.titulo

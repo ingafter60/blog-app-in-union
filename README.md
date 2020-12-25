@@ -79,9 +79,12 @@ https://github.com/ingafter60/blog-app-in-union
         modified:   apps/blog/admin.py
         modified:   core/settings.py
 
+### 8. Model - Create Post model, register it to admin and run migrations
 
-
-
+        modified:   README.md
+        modified:   apps/blog/admin.py
+        new file:   apps/blog/migrations/0002_post.py
+        modified:   apps/blog/models.py
 
 
 
