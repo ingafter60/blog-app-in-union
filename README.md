@@ -60,3 +60,10 @@ https://github.com/ingafter60/blog-app-in-union
 
         modified:   README.md
         modified:   core/settings.py
+
+### 5. Model - Create Categoria and Autor models, register them and run migrations 
+
+        modified:   README.md
+        modified:   apps/blog/admin.py
+        new file:   apps/blog/migrations/0001_initial.py
+        modified:   apps/blog/models.py
