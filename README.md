@@ -55,3 +55,8 @@ https://github.com/ingafter60/blog-app-in-union
         new file:   apps/blog/tests.py
         new file:   apps/blog/views.py
         modified:   core/settings.py
+
+### 4. Project settings, mingrations and superuser
+
+        modified:   README.md
+        modified:   core/settings.py
