@@ -117,9 +117,23 @@ https://github.com/ingafter60/blog-app-in-union
         new file:   templates/index.html
         new file:   templates/post.html
 
+### 11. Template Inheritance with categories - Create templates and dynamic links
 
-
-
+        modified:   README.md
+        modified:   apps/blog/urls.py
+        modified:   apps/blog/views.py
+        new file:   static/img/general.jpg
+        new file:   static/img/programming.jpg
+        new file:   static/img/technology.jpg
+        new file:   static/img/tutorial.jpg
+        new file:   static/img/tutorial.png
+        new file:   static/img/videogame.jpg
+        new file:   templates/general.html
+        modified:   templates/index.html
+        new file:   templates/programming.html
+        new file:   templates/technology.html
+        new file:   templates/tutorial.html
+        new file:   templates/videogame.html
 
 
 
